@@ -1,0 +1,18 @@
+{
+  "name": "public-review",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@public-review/web",
+    "build": "npm run build --workspace=@public-review/web",
+    "start": "npm run start --workspace=@public-review/web",
+    "typecheck": "npm run typecheck --workspace=@public-review/web"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}
+

@@ -1,0 +1,22 @@
+# JavaScript
+node_modules/
+.next/
+out/
+npm-debug.log*
+*.tsbuildinfo
+
+# Environment and local tooling
+.env
+.env.local
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build and coverage output
+dist/
+build/
+coverage/
+htmlcov/
+
